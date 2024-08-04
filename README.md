@@ -7,7 +7,7 @@ Ceci est un projet test pour le poste de Développeur vuejs
 Les **tables** de la base de donnée est dans le fichier **data.sql**, il faut créer une base de donnée nommée ***project_manager***, puis **importer** ou **executer** le fichier.
 
 ### Version node
-18.1.x
+18.20.x
 
 ## Le projet front
 Executez la commande `npm install` puis `npm run dev`  
