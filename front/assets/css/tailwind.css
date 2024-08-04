@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,*,option{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.bt{
+    @apply bg-blue-500 p-2 rounded text-white px-5 font-bold transition;
+    @apply hover:bg-blue-700 focus:ring;
+}
+.bt:disabled{
+    @apply bg-blue-300;
+}
+
+.input{
+    @apply p-2 border rounded transition;
+    @apply hover:border-blue-500 focus:ring;
+}
